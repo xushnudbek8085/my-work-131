@@ -1,0 +1,36 @@
+.a{
+    border: 4px solid black;
+    width: 200px;
+    height: 100px;
+}
+.b{
+    border: 4px solid red;
+    width: 200px;
+    height: 100px;
+    transform: rotate(25deg);
+    background-color: white;
+    position: relative;
+    left: -30px;
+}
+.c{
+    border: 4px solid green;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    right: 50px;
+    background-color: white;
+   
+}
+.d{
+    border: 4px solid green;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -20px;
+    right: 40px;
+}
+.parent{
+     display: flex;
+     margin: 200px;
+}
